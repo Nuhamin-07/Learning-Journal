@@ -27,7 +27,7 @@ nav a {
 
 .main-topic {
   background-image: url("../images/img8.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-color: #eee;
   padding: 10em 0.75em 2em;
   background-repeat: no-repeat;

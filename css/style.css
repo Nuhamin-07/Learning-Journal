@@ -119,6 +119,7 @@ footer p {
   font-size: 0.5rem;
   margin-top: 1em;
   text-align: center;
+  margin: 0 auto;
 }
 
 .recent-posts {
@@ -127,14 +128,14 @@ footer p {
 
 #section {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 0.5em;
   box-sizing: border-box;
   padding: 1em;
 }
 
 .blog-items {
-  grid-column: span 12;
+  grid-column: span 1;
 }
 
 @media (min-width: 520px) {
